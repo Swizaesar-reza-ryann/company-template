@@ -94,11 +94,10 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-            {aboutContent.values.map((value, index) => (
+            {aboutContent.values.map(value => (
               <div
                 key={value.title}
                 className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-all duration-300"
-                style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <div className="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-4">
                   <div className="w-6 h-6 bg-primary-600 rounded" />
@@ -115,7 +114,7 @@ export default function AboutPage() {
       <section className="section-padding bg-primary-600">
         <div className="container">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 max-w-4xl mx-auto">
-            {aboutContent.stats.map((stat, index) => (
+            {aboutContent.stats.map(stat => (
               <div key={stat.label} className="text-center">
                 <div className="text-4xl lg:text-5xl font-bold text-white mb-2">{stat.value}</div>
                 <div className="text-primary-100">{stat.label}</div>

@@ -21,7 +21,7 @@ export default function ProjectsPage() {
               Our <span className="text-gradient">Projects</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore our portfolio of successful digital solutions and see how we've helped
+              Explore our portfolio of successful digital solutions and see how we&apos;ve helped
               businesses achieve their goals
             </p>
           </div>
@@ -111,7 +111,7 @@ export default function ProjectsPage() {
               Have a Project in Mind?
             </h2>
             <p className="text-xl text-primary-100 mb-8">
-              Let's discuss how we can help bring your ideas to life
+              Let&apos;s discuss how we can help bring your ideas to life
             </p>
             <Link
               href="/contact"

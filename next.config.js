@@ -5,9 +5,6 @@ const nextConfig = {
     domains: ['images.unsplash.com', 'cdn-icons-png.flaticon.com'],
     unoptimized: false,
   },
-  experimental: {
-    optimizeCss: true,
-  },
   poweredByHeader: false,
   compress: true,
   swcMinify: true,

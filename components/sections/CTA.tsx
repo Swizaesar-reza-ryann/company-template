@@ -9,8 +9,8 @@ export default function CTA() {
             Ready to Transform Your Business?
           </h2>
           <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto">
-            Let's discuss how our innovative solutions can help you achieve your digital goals and
-            drive growth.
+            Let&apos;s build something amazing together. Our innovative solutions can help you
+            achieve your digital goals and drive growth.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

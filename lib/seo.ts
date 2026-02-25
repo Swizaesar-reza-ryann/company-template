@@ -89,7 +89,7 @@ export function generatePageMetadata(title: string, description: string, path?: 
 /**
  * Generate structured data for SEO
  */
-export function generateStructuredData(type: string, data: any) {
+export function generateStructuredData(type: string, data: Record<string, unknown>) {
   return {
     '@context': 'https://schema.org',
     '@type': type,

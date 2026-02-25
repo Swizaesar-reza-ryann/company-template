@@ -1,8 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { Metadata } from 'next';
-import { generatePageMetadata } from '@/lib/seo';
 import { contactInfo, siteConfig } from '@/lib/data';
 
 // Note: This is a client component for form handling
@@ -85,7 +83,7 @@ export default function ContactPage() {
                   </div>
                   <h3 className="text-xl font-semibold text-green-900 mb-2">Message Sent!</h3>
                   <p className="text-green-700">
-                    Thank you for contacting us. We'll get back to you soon.
+                    Thank you for contacting us. We&apos;ll get back to you soon.
                   </p>
                 </div>
               ) : (

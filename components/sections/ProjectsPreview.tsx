@@ -6,7 +6,7 @@ export default function ProjectsPreview() {
   const featuredProjects = projects.slice(0, 3);
 
   return (
-    <section className="section-padding bg-white">
+    <section className="site">
       <div className="container">
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -14,7 +14,8 @@ export default function ProjectsPreview() {
             Recent <span className="text-gradient">Projects</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore our latest work and see how we've helped businesses achieve their digital goals
+            Explore our latest work and see how we&apos;ve helped businesses achieve their digital
+            goals
           </p>
         </div>
 
