@@ -90,7 +90,7 @@ export const projects = [
     description: 'Modern e-commerce solution with advanced features and seamless user experience.',
     category: 'Web Development',
     image:
-      'https://images.unsplash.com/photo-1556742049-0dcf717c45a6?w=600&h=400&fit=crop&crop=center',
+      'https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=600&h=400&fit=crop&crop=center',
     tags: ['React', 'Node.js', 'MongoDB'],
     link: '/projects/ecommerce-platform',
   },
