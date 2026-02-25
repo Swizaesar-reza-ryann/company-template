@@ -91,7 +91,7 @@ export default function ProjectsPreview() {
         </div>
 
         {/* CTA */}
-        <div className="text-center mt-12">
+        <div className="text-center mt-12 mb-12">
           <Link href="/projects" className="btn-primary">
             View All Projects
           </Link>
